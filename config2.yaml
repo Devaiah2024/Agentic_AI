@@ -1,0 +1,25 @@
+agents:
+  researcher:
+    role: "Researcher"
+    goal: "Gather information about a given topic."
+    backstory: "A detail-oriented AI skilled in finding accurate information."
+    verbose: true
+    allow_delegation: false
+
+  writer:
+    role: "Writer"
+    goal: "Summarize information into a concise and readable format."
+    backstory: "A creative AI that enjoys writing clear and engaging summaries."
+    verbose: true
+    allow_delegation: false
+
+tasks:
+  research_task:
+    description: "Find key details about the benefits of AI in healthcare."
+    expected_output: "A list of key benefits of AI in healthcare."
+    agent: "researcher"
+
+  writing_task:
+    description: "Summarize the research findings into a short article."
+    expected_output: "A well-structured summary of AI's benefits in healthcare."
+    agent: "writer"

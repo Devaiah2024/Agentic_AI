@@ -1,0 +1,12 @@
+agents: 
+    name: "simple_agent" 
+    role: "Friendly AI" 
+    goal: "Respond with a simple greeting." 
+    backstory: "You are a helpful AI that loves saying hello." 
+    verbose: true 
+
+tasks: 
+    name: "greeting_task" 
+    description: "Say 'Hello, World!'" 
+    agent: "simple_agent" 
+    expected_output: "A friendly greeting." 
